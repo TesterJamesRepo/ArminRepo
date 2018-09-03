@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106807" started-at="2018-09-01T11:22:58Z" finished-at="2018-09-01T11:24:45Z">
+  <suite name="Default suite" duration-ms="9748" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106807" started-at="2018-09-01T11:22:58Z" finished-at="2018-09-01T11:24:45Z">
-      <class name="com.qa.tests.AmazonSearchTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.tests.AmazonSearchTest@5792a0]" name="beforeTest" is-config="true" duration-ms="106498" started-at="2018-09-01T11:22:58Z" finished-at="2018-09-01T11:24:44Z">
+    <test name="Default test" duration-ms="9748" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
+      <class name="com.qa.tests.DDTTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.tests.DDTTest@13a5bf6]" name="beforeTest" duration-ms="9659" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="dropdownTest()[pri:0, instance:com.qa.tests.AmazonSearchTest@5792a0]" name="dropdownTest" duration-ms="67" started-at="2018-09-01T11:24:45Z" finished-at="2018-09-01T11:24:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.AmazonSearchTest@5792a0]" name="afterTest" is-config="true" duration-ms="2" started-at="2018-09-01T11:24:45Z" finished-at="2018-09-01T11:24:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.DDTTest@13a5bf6]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-02T08:28:01Z" finished-at="2018-09-02T08:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qa.tests.AmazonSearchTest -->
+      </class> <!-- com.qa.tests.DDTTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
