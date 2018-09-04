@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9748" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
+  <suite name="TestSuite" duration-ms="33362" started-at="2018-09-03T12:55:07Z" finished-at="2018-09-03T12:55:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9748" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
-      <class name="com.qa.tests.DDTTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.tests.DDTTest@13a5bf6]" name="beforeTest" duration-ms="9659" started-at="2018-09-02T08:27:51Z" finished-at="2018-09-02T08:28:01Z">
+    <test name="TestChrome" duration-ms="13515" started-at="2018-09-03T12:55:07Z" finished-at="2018-09-03T12:55:20Z">
+      <class name="com.qa.tests.WebDriverBasicsTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.qa.tests.WebDriverBasicsTest@9bf450]" name="beforeTest" is-config="true" duration-ms="7773" started-at="2018-09-03T12:55:07Z" finished-at="2018-09-03T12:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.DDTTest@13a5bf6]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-02T08:28:01Z" finished-at="2018-09-02T08:28:01Z">
+        <test-method status="PASS" signature="selectFromMultipleDropdown()[pri:-1, instance:com.qa.tests.WebDriverBasicsTest@9bf450]" name="selectFromMultipleDropdown" duration-ms="1518" started-at="2018-09-03T12:55:14Z" finished-at="2018-09-03T12:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromMultipleDropdown -->
+        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.qa.tests.WebDriverBasicsTest@9bf450]" name="checkboxTest" duration-ms="301" started-at="2018-09-03T12:55:16Z" finished-at="2018-09-03T12:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxTest -->
+        <test-method status="PASS" signature="selectFromDropdown()[pri:0, instance:com.qa.tests.WebDriverBasicsTest@9bf450]" name="selectFromDropdown" duration-ms="329" started-at="2018-09-03T12:55:16Z" finished-at="2018-09-03T12:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromDropdown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.WebDriverBasicsTest@9bf450]" name="afterTest" is-config="true" duration-ms="3528" started-at="2018-09-03T12:55:17Z" finished-at="2018-09-03T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qa.tests.DDTTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.tests.WebDriverBasicsTest -->
+    </test> <!-- TestChrome -->
+    <test name="TestIE" duration-ms="19738" started-at="2018-09-03T12:55:20Z" finished-at="2018-09-03T12:55:40Z">
+      <class name="com.qa.tests.WebTableTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.qa.tests.WebTableTest@1474f18]" name="beforeTest" is-config="true" duration-ms="16515" started-at="2018-09-03T12:55:20Z" finished-at="2018-09-03T12:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteRowTest()[pri:0, instance:com.qa.tests.WebTableTest@1474f18]" name="deleteRowTest" duration-ms="243" started-at="2018-09-03T12:55:37Z" finished-at="2018-09-03T12:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRowTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.WebTableTest@1474f18]" name="afterTest" is-config="true" duration-ms="2976" started-at="2018-09-03T12:55:37Z" finished-at="2018-09-03T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.tests.WebTableTest -->
+    </test> <!-- TestIE -->
+  </suite> <!-- TestSuite -->
 </testng-results>
