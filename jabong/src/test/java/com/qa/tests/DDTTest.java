@@ -20,6 +20,9 @@ public class DDTTest {
 WebDriver driver;
 
   @Test
+  public void readExcel(){}
+
+  @BeforeTest
   public void beforeTest() {
 	  
 	  System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
