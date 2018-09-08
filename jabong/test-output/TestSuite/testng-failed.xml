@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
-  <parameter name="browser" value="ie"/>
-  <test thread-count="5" name="TestIE(failed)">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
     <classes>
       <class name="com.qa.tests.WebTableTest">
         <methods>
@@ -12,5 +12,5 @@
         </methods>
       </class> <!-- com.qa.tests.WebTableTest -->
     </classes>
-  </test> <!-- TestIE(failed) -->
+  </test> <!-- IETest(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

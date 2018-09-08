@@ -20,24 +20,30 @@ public class WebTableTest extends TestBase{
 	
   @Test
   public void deleteRowTest() {
-	  driver.findElement(By.xpath("//td[contains(text(),'http://www.jdoe.com')]/following-sibling::td/a[text()='delete']")).click();
+	  driver.findElement(By.xpath("//table[@id='table1']//td[contains(text(),'http://www.jdoe.com')]/following-sibling::td/a[text()='delete']")).click();
 	  
 	  
   }
+	
+	/*@Test
+	public void webTableTest(){
+		System.out.println("Internet Explorer Test");
+	}*/
   
   
   @BeforeTest
   @Parameters("browser")
   public void beforeTest(String browser) {
 	  initialiseBrowser(browser);
-	  driver.get("http://the-internet.herokuapp.com/tables");
-  
+	  //driver.get("http://the-internet.herokuapp.com/tables");
+	
+	 
   }
 
   @AfterTest
   public void afterTest() {
 	  
-	  closeBrowser();
+	//  closeBrowser();
   }
 
 }

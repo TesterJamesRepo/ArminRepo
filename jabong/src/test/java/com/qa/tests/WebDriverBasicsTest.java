@@ -24,8 +24,13 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class WebDriverBasicsTest extends TestBase{
+	
+/*@Test
+	public void webDriverBasicsTest(){
+		System.out.println("Chrome Test");
+	}*/
 
- @Test()
+ @Test
   public void checkboxTest() {
 	  
 	  //select the checkbox parking sensor
@@ -36,7 +41,7 @@ public class WebDriverBasicsTest extends TestBase{
 		  }
   }
   
-  @Test(priority=0)
+ /* @Test
   public void selectFromDropdown(){
 	  //Select the car
 	  WebElement dropDown = driver.findElement(By.name("make"));
@@ -44,14 +49,14 @@ public class WebDriverBasicsTest extends TestBase{
 	  carDropdown.selectByVisibleText("Mercedes");
   }
   
-  @Test(priority=-1)
+  @Test
   public void selectFromMultipleDropdown(){
 	  //Select the car
 	  WebElement multiDropdown = driver.findElement(By.name("color"));
 	  Select colorDropdown = new Select(multiDropdown);
 	  Assert.assertTrue(colorDropdown.isMultiple());
 	  colorDropdown.selectByVisibleText("White");
-	  colorDropdown.selectByIndex(4);
+	  colorDropdown.selectByIndex(4); 
 	  colorDropdown.selectByValue("rd");
 	  
 	  List<String> act_opt = new ArrayList<String>();
@@ -60,7 +65,7 @@ public class WebDriverBasicsTest extends TestBase{
 		  act_opt.add(oneColor.getText());
 	  }
 	  
-	  /*for(String oneOpt : act_opt){
+	  for(String oneOpt : act_opt){
 		  System.out.println(oneOpt);
 	  }
 	  
@@ -70,14 +75,14 @@ public class WebDriverBasicsTest extends TestBase{
 		  
 		  System.out.println(it.next());
 		  
-	  } */
+	  } 
 	  
 	  List<String> exp_opt = Arrays.asList(new String[]{"White","Red","Silver"});
 	  Assert.assertEquals(act_opt, exp_opt);
 	  
 	   
   }
-  
+  */
   
   @BeforeTest
   @Parameters("browser")
