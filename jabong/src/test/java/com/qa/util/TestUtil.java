@@ -30,10 +30,12 @@ public class TestUtil {
 	 static String sheetName="RegTestData";
 	 static Xls_Reader reader;
 	 
-	 public static void setDataToCell(int rowNum){
+	 public static void setDataToCell(int rowNum, boolean flag){
 		 
-		
+		if(flag == true)
 		 reader.setCellData("RegTestData", "status", rowNum, "Pass");
+		else 
+		 reader.setCellData("RegTestData", "status", rowNum, "Fail");
 		 
 		 
 	 }

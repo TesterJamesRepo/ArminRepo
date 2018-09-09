@@ -6,9 +6,9 @@
     <classes>
       <class name="com.qa.tests.DDTTest">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="regPageTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="regPageTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.qa.tests.DDTTest -->
     </classes>

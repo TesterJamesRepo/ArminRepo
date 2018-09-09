@@ -37,6 +37,7 @@ import org.testng.annotations.BeforeMethod;
 public class DDTTest extends TestBase{
 	
 	Logger log = Logger.getLogger(DDTTest.class);
+	boolean flag=true;
 
 
 @DataProvider
@@ -78,12 +79,19 @@ public void regPageTest(String firstName, String lastName, String gender, String
 	
 	Alert alert = driver.switchTo().alert();
 	
-	//if(alert.getText().contains(alertmessage))
-	Assert.assertTrue(alert.getText().contains(alertmessage));	
+	if(alert.getText().contains(alertmessage))
+	//if(Assert.assertTrue(alert.getText().contains(alertmessage)))
+		TestUtil.setDataToCell(rowNum,flag);
+	else
+		{
+		flag=false;
+		TestUtil.setDataToCell(rowNum,flag);
+		}
+	
 	alert.accept();	
 	
 	
-	TestUtil.setDataToCell(rowNum);
+	
 	
 	log.info("****************************** ending test case *****************************************");
 }

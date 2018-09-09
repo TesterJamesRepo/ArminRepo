@@ -16,7 +16,7 @@ public class ColorPickerTest extends TestBase {
   @BeforeTest
   public void beforeTest() {
 	  
-	  initialiseBrowser("chrome");
+	  initialiseBrowser("firefox");
 	  /*driver.get("http://demo.guru99.com/test/ajax.html");
 	  System.out.println(driver.findElement(By.id("yes")).getAttribute("value"));
 	  */

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="32635" started-at="2018-09-08T12:11:59Z" finished-at="2018-09-08T12:12:32Z">
+  <suite name="Test Suite" duration-ms="34994" started-at="2018-09-09T07:16:04Z" finished-at="2018-09-09T07:16:39Z">
     <groups>
     </groups>
-    <test name="DataDrivenTest" duration-ms="32635" started-at="2018-09-08T12:11:59Z" finished-at="2018-09-08T12:12:32Z">
+    <test name="DataDrivenTest" duration-ms="34994" started-at="2018-09-09T07:16:04Z" finished-at="2018-09-09T07:16:39Z">
       <class name="com.qa.tests.DDTTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.DDTTest@3cf28]" name="setUp" is-config="true" duration-ms="12060" started-at="2018-09-08T12:12:01Z" finished-at="2018-09-08T12:12:13Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.DDTTest@1814d18]" name="setUp" is-config="true" duration-ms="10196" started-at="2018-09-09T07:16:06Z" finished-at="2018-09-09T07:16:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="regPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.qa.tests.DDTTest@3cf28]" name="regPageTest" duration-ms="3541" started-at="2018-09-08T12:12:13Z" description="Invalid Login Scenario with empty username and password." data-provider="getTestData" finished-at="2018-09-08T12:12:17Z">
+        <test-method status="PASS" signature="regPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.qa.tests.DDTTest@1814d18]" name="regPageTest" duration-ms="3832" started-at="2018-09-09T07:16:17Z" description="Invalid Login Scenario with empty username and password." data-provider="getTestData" finished-at="2018-09-09T07:16:20Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[female]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="3">
@@ -74,11 +74,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.DDTTest@3cf28]" name="tearDown" is-config="true" duration-ms="2653" started-at="2018-09-08T12:12:17Z" finished-at="2018-09-08T12:12:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.DDTTest@1814d18]" name="tearDown" is-config="true" duration-ms="4357" started-at="2018-09-09T07:16:20Z" finished-at="2018-09-09T07:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.DDTTest@3cf28]" name="setUp" is-config="true" duration-ms="6650" started-at="2018-09-08T12:12:19Z" finished-at="2018-09-08T12:12:26Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.DDTTest@1814d18]" name="setUp" is-config="true" duration-ms="7379" started-at="2018-09-09T07:16:25Z" finished-at="2018-09-09T07:16:32Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="regPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.qa.tests.DDTTest@3cf28]" name="regPageTest" duration-ms="3176" started-at="2018-09-08T12:12:26Z" description="Invalid Login Scenario with empty username and password." data-provider="getTestData" finished-at="2018-09-08T12:12:29Z">
+        <test-method status="PASS" signature="regPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.qa.tests.DDTTest@1814d18]" name="regPageTest" duration-ms="3327" started-at="2018-09-09T07:16:32Z" description="Invalid Login Scenario with empty username and password." data-provider="getTestData" finished-at="2018-09-09T07:16:35Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[male]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="3">
@@ -133,7 +133,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[Please enter last name]]>
+                <![CDATA[Please enter first name]]>
               </value>
             </param>
             <param index="9">
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.DDTTest@3cf28]" name="tearDown" is-config="true" duration-ms="2624" started-at="2018-09-08T12:12:29Z" finished-at="2018-09-08T12:12:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.DDTTest@1814d18]" name="tearDown" is-config="true" duration-ms="3601" started-at="2018-09-09T07:16:35Z" finished-at="2018-09-09T07:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
