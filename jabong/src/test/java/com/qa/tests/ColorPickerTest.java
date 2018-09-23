@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 public class ColorPickerTest extends TestBase {
   @Test
   public void f() {
-	  System.out.println("hihiiihhhh");
+	  System.out.println("hih");
   }
   @BeforeTest
   public void beforeTest() {
